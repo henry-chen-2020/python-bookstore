@@ -63,10 +63,10 @@ docker run mongo
   - https://flask.palletsprojects.com/en/1.1.x/quickstart/
 
 ## Steps
-- Install Visual Source Code
+- Install Visual Stadio Code
 - Install Python 3
 - Install Flask
 - Write Python code with Flask
 
 ## Demo
-- The API from localhost/5000
+- The API from localhost:5000
