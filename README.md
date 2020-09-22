@@ -58,9 +58,11 @@ docker run mongo
 - Write a REST API which resturns "Hello World"
 
 ## Tasks
-- Familiar with IDE - VS code
+- Familiar with IDE - VS Code
 - Understand basics of Flask framework
   - https://flask.palletsprojects.com/en/1.1.x/quickstart/
+- Setup Github in VS Code
+  - https://code.visualstudio.com/docs/editor/github
 
 ## Steps
 - Install Visual Studio Code
