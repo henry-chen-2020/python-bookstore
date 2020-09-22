@@ -51,3 +51,22 @@ docker run mongo
 ## Suggested Reading
 * https://kubernetes.io/docs/tutorials/
 * https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
+
+# Sprint 1
+
+## Goals
+- Write a REST API which resturns "Hello World"
+
+## Tasks
+- Familiar with IDE - VS code
+- Understand basics of Flask framework
+  - https://flask.palletsprojects.com/en/1.1.x/quickstart/
+
+## Steps
+- Install Visual Source Code
+- Install Python 3
+- Install Flask
+- Write Python code with Flask
+
+## Demo
+- The API from localhost/5000
