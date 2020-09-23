@@ -69,7 +69,7 @@ docker run mongo
 - Write Python code with Flask
 
 ## Demo
-- The API from localhost:
+- The API from localhost:5000/
 - To run
   - ./test.py
 - or
