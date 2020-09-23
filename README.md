@@ -69,4 +69,9 @@ docker run mongo
 - Write Python code with Flask
 
 ## Demo
-- The API from localhost:5000
+- The API from localhost:5000/
+- To run
+  - ./test.py
+- or
+  - export FLASK_APP=test.py
+  - flask run
