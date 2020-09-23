@@ -75,3 +75,34 @@ docker run mongo
 - or
   - export FLASK_APP=test.py
   - flask run
+
+# Sprint 2
+
+## Goal
+
+- Familiar with REST API
+
+## Tasks
+
+- Get the concept of REST API
+- Use Postman to test REST API
+- Build skeloton of REST API
+
+## Steps
+
+- Install Postman
+- Watch REST API Intro: https://www.youtube.com/watch?v=7YcW25PHnAA
+- "Create" the following APIs
+```
+POST /books : Creates a new book.
+PUT /book/{id}: Updates a book.
+GET /books: Returns a list of books in the store.
+GET /book/{id}: Returns the book with id = {id}
+DELETE /book/{id}: Deletes the book with id = {id}
+DELETE /books: Deletes all books in the store
+```
+- But only echoing the input, for example
+  - `PUT /book/<id>` should return `/book/{id}`
+  
+## Demo
+- Show above APIs returning input  
