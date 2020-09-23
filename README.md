@@ -86,7 +86,7 @@ docker run mongo
 
 - Get the concept of REST API
 - Use Postman to test REST API
-- Build skeloton of REST API
+- Build skeleton of REST API
 
 ## Steps
 
