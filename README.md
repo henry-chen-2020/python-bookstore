@@ -106,3 +106,20 @@ DELETE /books: Deletes all books in the store
   
 ## Demo
 - Show above APIs returning input  
+
+# Sprint 3
+
+## Goals
+
+- Familiar with 
+  - Dababase - Mongo DB
+  - DB driver - Flask-PyMongo
+
+## Steps
+
+- Install MongoDB
+- Install Flask-PyMongo: https://flask-pymongo.readthedocs.io/en/latest/
+- Use Flask-PyMongo to implement DB operations
+  - DB connection: https://www.youtube.com/watch?v=3ZS7LEH_XBg
+  - DB operations: https://www.youtube.com/watch?v=4o7C4JMGLe4
+  
