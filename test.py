@@ -27,8 +27,8 @@ def hello_world():
 
 @app.route('/books', methods=['POST'])
 def post_books():
-    result = mongo.db.books.insert_one(pack(request.data))
-    return 'Post book.'
+    mongo.db.books.insert_one(pack(request.data))
+    return 'Books posted.'
 
 @app.route('/books', methods=['GET'])
 def get_books():
@@ -44,15 +44,17 @@ def delete_books():
 
 @app.route('/book/<id>', methods=['GET'])
 def get_id(id):
-    
-    return 'Get book ' + id
+    result = mongo.db.books.find({'id':id})
+    return unpack(result)
 
 @app.route('/book/<id>', methods=['PUT'])
 def put_id(id):
-    return 'Put book ' + id
+    mongo.db.books.update_one({'id':id},{"$set":pack(request.data)})
+    return "Book " + id + " placed."
 
 @app.route('/book/<id>', methods=['DELETE'])
 def delete_book(id):
+    mongo.db.books.delete_one({'id':id})
     return 'Book '+id+' deleted.'
 
 
