@@ -122,4 +122,19 @@ DELETE /books: Deletes all books in the store
 - Use Flask-PyMongo to implement DB operations
   - DB connection: https://www.youtube.com/watch?v=3ZS7LEH_XBg
   - DB operations: https://www.youtube.com/watch?v=4o7C4JMGLe4
-  
+
+# Sprint 4
+
+## Goals
+
+- Understand HTTP status code
+
+## Tasks
+
+- Implement status code for the project
+
+## Steps
+
+- Read: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+- Read: https://www.flaskapi.org/api-guide/status-codes/
+- Watch: https://www.youtube.com/watch?v=3h8VkVyTZhk
