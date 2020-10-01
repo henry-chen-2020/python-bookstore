@@ -1,5 +1,8 @@
 # python-bookstore
 
+## commands
+brew services start mongodb-community@4.4
+brew services stop mongodb-community@4.4
 ## Goals
 
 - Get familiar with Python
@@ -86,7 +89,7 @@ docker run mongo
 
 - Get the concept of REST API
 - Use Postman to test REST API
-- Build skeleton of REST API
+- Build skeloton of REST API
 
 ## Steps
 
